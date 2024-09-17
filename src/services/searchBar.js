@@ -6,7 +6,7 @@ export const handleSearchProductByName = () => {
     const products = handleGetProductLocalStorage();
 
     const result = products.filter((el)=>
-    el.nombre.tolowerCase().includes(inputHeader.value));
+    el.nombre.toLowerCase().includes(inputHeader.value));
 
     handleRenderList(result);
 }

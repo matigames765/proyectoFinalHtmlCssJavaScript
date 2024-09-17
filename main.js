@@ -1,5 +1,4 @@
 import { renderCategories } from "./src/categories.js";
-import { setInLocalStorage } from "./src/persistence/localStorage.js";
 import { handleSearchProductByName } from "./src/services/searchBar.js";
 import { openModal } from "./src/views/modal.js";
 import { handleGetProductsToStore } from "./src/views/store.js";
