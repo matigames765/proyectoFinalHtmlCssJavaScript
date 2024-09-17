@@ -16,7 +16,7 @@ export const setInLocalStorage = (productIn) => {
     //traer los elementos
     let productsInLocal = handleGetProductLocalStorage();
     const existingIndex = productsInLocal.findIndex((productsLocal)=>{
-        productsLocal.id === productIn.id
+        return productsLocal.id === productIn.id
     })
     //verificar si el elemento existe
     if(existingIndex !== -1){
